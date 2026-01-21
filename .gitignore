@@ -15,7 +15,7 @@
 
 # next.js
 /.next/
-/out/
+# Removed /out/ from here - needed for GitHub Pages deployment
 
 # production
 /build

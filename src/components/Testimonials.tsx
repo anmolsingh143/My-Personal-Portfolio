@@ -5,13 +5,13 @@ import { useState } from "react";
 
 const TESTIMONIALS = [
   {
-    quote: "Fawaz delivered exceptional code on the Elite Hotel project. His understanding of microservices is top-notch.",
+    quote: "ANMOL delivered exceptional code on the Elite Hotel project. His understanding of microservices is top-notch.",
     name: "Alex Morgan",
     role: "Project Manager, Elite Hotel",
     initials: "AM",
   },
   {
-    quote: "The Nxtcart platform is blazing fast. Fawaz's optimization skills significantly improved our conversion rates.",
+    quote: "The Nxtcart platform is blazing fast. ANMOL's optimization skills significantly improved our conversion rates.",
     name: "Sarah Chen",
     role: "CTO, Nxtcart",
     initials: "SC",
