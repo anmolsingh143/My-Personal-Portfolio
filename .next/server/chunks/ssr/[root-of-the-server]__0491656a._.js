@@ -1,0 +1,3 @@
+module.exports=[32618,a=>{a.v({className:"inter_c15e96cb-module__0bjUvq__className",variable:"inter_c15e96cb-module__0bjUvq__variable"})},63589,a=>{"use strict";var b=a.i(28078),c=a.i(32618);let d={className:c.default.className,style:{fontFamily:"'Inter', 'Inter Fallback'",fontStyle:"normal"}};function e({children:a}){return(0,b.jsx)("html",{lang:"en",suppressHydrationWarning:!0,children:(0,b.jsx)("body",{className:`${d.variable} antialiased`,children:a})})}null!=c.default.variable&&(d.variable=c.default.variable),a.s(["default",()=>e,"metadata",0,{title:"Scrollytelling Portfolio",description:"A cinematic developer portfolio."}],63589)}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0491656a._.js.map

@@ -1,0 +1,296 @@
+[00:00:02.257] Server  LOG     ✓ Ready in 1734ms
+[00:00:46.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:46.564] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="/personal_...">
+                  <SegmentTrieNode>
+                  <Home>
+                    <main className="bg-[#12121...">
+                      <Hero>
+                      ...
+                        <motion.div layout={true} className="flex justi...">
+                          <MeasureLayout>
+                          <div className="flex justi..." style={{}} ref={function useMotionRef.useCallback}>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} onClick={function onClick} ...>
+                              <button
+                                onClick={function onClick}
+                                className="px-8 py-3 rounded-full bg-white/5 border border-white/10 text-white font-me..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               rtrvr-ro="38"
+                              >
+                      <Testimonials>
+                        <section className="relative z..." id="testimonials">
+                          <div>
+                          <div className="container ...">
+                            <motion.h2>
+                            <p>
+                            <motion.button initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} ...>
+                              <button
+                                onClick={function onClick}
+                                className="px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 ..."
+                                style={{opacity:0,transform:"translateY..."}}
+                                ref={function useMotionRef.useCallback}
+-                               rtrvr-ro="38"
+                              >
++                               Write a Review
+                          ...
+                      <Blog>
+                        <section className="relative z..." id="blog">
+                          <div>
+                          <div className="max-w-7xl ...">
+                            <motion.h2>
+                            <div className="grid grid-...">
+                              <motion.a href="#" initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
+                                <a
+                                  href="#"
+                                  className="group relative block h-full"
+                                  style={{opacity:0,transform:"translateY..."}}
+                                  ref={function useMotionRef.useCallback}
+-                                 rtrvr-ls="38~lc,39~lc"
+-                                 rtrvr-ro="50"
+                                >
+                              <motion.a href="#" initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
+                                <a
+                                  href="#"
+                                  className="group relative block h-full"
+                                  style={{opacity:0,transform:"translateY..."}}
+                                  ref={function useMotionRef.useCallback}
+-                                 rtrvr-ls="38~lc,39~lc"
+-                                 rtrvr-ro="50"
+                                >
+                              <motion.a href="#" initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} ...>
+                                <a
+                                  href="#"
+                                  className="group relative block h-full"
+                                  style={{opacity:0,transform:"translateY..."}}
+                                  ref={function useMotionRef.useCallback}
+-                                 rtrvr-ls="38~lc,39~lc"
+-                                 rtrvr-ro="50"
+                                >
+                      <Skills>
+                      <Timeline>
+                      ...
+                        <div onMouseMove={function onMouseMove} onMouseLeave={function onMouseLeave} ...>
+                          <DockIcon mouseX={{...}} item={{id:"home", ...}}>
+                            <LinkComponent href="#home" target={undefined}>
+                              <a
+                                target={undefined}
+                                ref={function}
+                                onClick={function onClick}
+                                onMouseEnter={function onMouseEnter}
+                                onTouchStart={function onTouchStart}
+                                href="#home"
+-                               rtrvr-ls="38~lc,39~lc"
+-                               rtrvr-ro="50"
+                              >
+                          <DockIcon mouseX={{...}} item={{id:"projects", ...}}>
+                            <LinkComponent href="#projects" target={undefined}>
+                              <a
+                                target={undefined}
+                                ref={function}
+                                onClick={function onClick}
+                                onMouseEnter={function onMouseEnter}
+                                onTouchStart={function onTouchStart}
+                                href="#projects"
+-                               rtrvr-ls="38~lc,39~lc"
+-                               rtrvr-ro="50"
+                              >
+                          <DockIcon mouseX={{...}} item={{id:"testim...", ...}}>
+                            <LinkComponent href="#testimonials" target={undefined}>
+                              <a
+                                target={undefined}
+                                ref={function}
+                                onClick={function onClick}
+                                onMouseEnter={function onMouseEnter}
+                                onTouchStart={function onTouchStart}
+                                href="#testimonials"
+-                               rtrvr-ls="38~lc,39~lc"
+-                               rtrvr-ro="50"
+                              >
+                          <DockIcon mouseX={{...}} item={{id:"blog", ...}}>
+                            <LinkComponent href="#blog" target={undefined}>
+                              <a
+                                target={undefined}
+                                ref={function}
+                                onClick={function onClick}
+                                onMouseEnter={function onMouseEnter}
+                                onTouchStart={function onTouchStart}
+                                href="#blog"
+-                               rtrvr-ls="38~lc,39~lc"
+-                               rtrvr-ro="50"
+                              >
+                          <DockIcon mouseX={{...}} item={{id:"skills", ...}}>
+                            <LinkComponent href="#skills" target={undefined}>
+                              <a
+                                target={undefined}
+                                ref={function}
+                                onClick={function onClick}
+                                onMouseEnter={function onMouseEnter}
+                                onTouchStart={function onTouchStart}
+                                href="#skills"
+-                               rtrvr-ls="38~lc,39~lc"
+-                               rtrvr-ro="50"
+                              >
+                          <DockIcon mouseX={{...}} item={{id:"journey", ...}}>
+                            <LinkComponent href="#journey" target={undefined}>
+                              <a
+                                target={undefined}
+                                ref={function}
+                                onClick={function onClick}
+                                onMouseEnter={function onMouseEnter}
+                                onTouchStart={function onTouchStart}
+                                href="#journey"
+-                               rtrvr-ls="38~lc,39~lc"
+-                               rtrvr-ro="50"
+                              >
+                          <DockIcon mouseX={{...}} item={{id:"contact", ...}}>
+                            <LinkComponent href="#contact" target={undefined}>
+                              <a
+                                target={undefined}
+                                ref={function}
+                                onClick={function onClick}
+                                onMouseEnter={function onMouseEnter}
+                                onTouchStart={function onTouchStart}
+                                href="#contact"
+-                               rtrvr-ls="38~lc,39~lc"
+-                               rtrvr-ro="50"
+                              >
+                          <DockIcon mouseX={{...}} item={{id:"resume", ...}}>
+                            <LinkComponent href="/resume.pdf" target="_blank">
+                              <a
+                                target="_blank"
+                                ref={function}
+                                onClick={function onClick}
+                                onMouseEnter={function onMouseEnter}
+                                onTouchStart={function onTouchStart}
+                                href="/resume.pdf"
+-                               rtrvr-ls="38~lc,39~lc"
+-                               rtrvr-ro="50"
+                              >
+                      ...
+                        <div className="max-w-7xl ...">
+                          <div className="grid grid-...">
+                            <motion.div initial={{opacity:0,x:-20}} whileInView={{opacity:1,x:0}} ...>
+                              <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                                <h2>
+                                <p>
+                                <div className="flex flex-...">
+                                  <a
+                                    href="mailto:singhanmol9081@gmail.com"
+                                    className="flex items-center gap-4 text-gray-300 hover:text-white transition-color..."
+-                                   rtrvr-ls="38~lc,39~lc"
+-                                   rtrvr-ro="50"
+                                  >
+                                  <div className="flex items...">
+                                    <SocialLink href="https://gi..." icon={<GithubIcon>} label="GitHub">
+                                      <a
+                                        href="https://github.com/anmolsingh143"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items..."
+                                        aria-label="GitHub"
+-                                       rtrvr-ls="38~lc,39~lc"
+-                                       rtrvr-ro="50"
+                                      >
+                                    <SocialLink href="https://ww..." icon={<LinkedinIcon>} label="LinkedIn">
+                                      <a
+                                        href="https://www.linkedin.com/in/anmolpratapsingh431/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items..."
+                                        aria-label="LinkedIn"
+-                                       rtrvr-ls="38~lc,39~lc"
+-                                       rtrvr-ro="50"
+                                      >
+                                    <SocialLink href="https://x...." icon={<TwitterIcon>} label="Twitter">
+                                      <a
+                                        href="https://x.com/anmolsingh_43"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items..."
+                                        aria-label="Twitter"
+-                                       rtrvr-ls="38~lc,39~lc"
+-                                       rtrvr-ro="50"
+                                      >
+                                <a
+                                  href="/resume.pdf"
+                                  download={true}
+                                  className="inline-flex items-center gap-2 px-8 py-4 bg-white text-black rounded-full..."
+-                                 rtrvr-ls="38~lc,39~lc"
+-                                 rtrvr-ro="50"
+                                >
+                            <motion.div initial={{opacity:0,x:20}} whileInView={{opacity:1,x:0}} ...>
+                              <div className="bg-white/5..." style={{opacity:0, ...}} ...>
+                                <form onSubmit={function handleSubmit} className="space-y-6">
+                                  <div>
+                                    <label>
+                                    <input
+                                      type="text"
+                                      id="name"
+                                      value=""
+                                      onChange={function onChange}
+                                      className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-w..."
+                                      placeholder="John Doe"
+                                      required={true}
+-                                     rtrvr-ls="12~lc,13~lc,15~lc,47~lc"
+-                                     rtrvr-ro="42"
+                                    >
+                                  <div>
+                                    <label>
+                                    <input
+                                      type="email"
+                                      id="email"
+                                      value=""
+                                      onChange={function onChange}
+                                      className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-w..."
+                                      placeholder="john@example.com"
+                                      required={true}
+-                                     rtrvr-ls="12~lc,13~lc,15~lc,47~lc"
+-                                     rtrvr-ro="42"
+                                    >
+                                  <div>
+                                    <label>
+                                    <textarea
+                                      id="message"
+                                      value=""
+                                      onChange={function onChange}
+                                      rows={4}
+                                      className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-w..."
+                                      placeholder="Tell me about your project..."
+                                      required={true}
+-                                     rtrvr-ls="12~lc,13~lc,15~lc,47~lc"
+-                                     rtrvr-ro="42"
+                                    >
+                                  <button
+                                    type="submit"
+                                    disabled={false}
+                                    className="w-full py-4 bg-linear-to-r from-blue-600 to-purple-600 rounded-xl text-..."
+-                                   rtrvr-ro="38"
+                                  >
++                                   Send Message
+                          ...
+                ...
+              ...
+
+[00:00:46.564] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:04:44.543] Server  LOG     ✓ Compiled in 705ms
+[00:06:39.958] Server  LOG     ✓ Compiled in 495ms
